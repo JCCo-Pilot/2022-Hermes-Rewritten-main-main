@@ -72,11 +72,6 @@ public class Robot extends TimedRobot
 
     @Override
     public void disabledPeriodic() {
-        robotContainer.ledStrip.usePattern((_1, _2) -> new Color8Bit(
-                (int) SmartDashboard.getNumber("LED_R", 0) & 255,
-                (int) SmartDashboard.getNumber("LED_G", 0) & 255,
-                (int) SmartDashboard.getNumber("LED_B", 0) & 255
-        ));
 
         SmartDashboard.putString("matchTime", "0");
     }
