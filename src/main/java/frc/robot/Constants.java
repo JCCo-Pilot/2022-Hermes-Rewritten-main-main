@@ -15,31 +15,6 @@ import edu.wpi.first.math.kinematics.DifferentialDriveKinematics;
  * constants are needed, to reduce verbosity.
  */
 public final class Constants {
-	public static final int DriveMotorFrontLeft = 1;
-	public static final int DriveMotorBackLeft=2;
-	public static final int DriveMotorFrontRight=3;
-	public static final int DriveMotorBackRight=4;
-	public static final int IntakeMotor = 9;
-	public static final int HopperMotor=8;
-	public static final int FeedMotor=7;
-	//public static final int TurretMotor=10;	//Need to update this value
-	public static final int ShooterMotor=6;	//Need to update this value
-	//public static final int ShroudMotor=5;	//Need to update this value
-	public static final int LClimberMotor=11;
-	public static final int RClimberMotor=12;
-
-	public static boolean climbing=false;
-
-	public static final int ForwardPiston= 1;
-	public static final int BackwardPiston =2;
-
-	public static final int feederSensor=1;
-
-	public static final double climberspeeed = 0.9;
-
-	public static double leftRate = 0;
-	public static double rightRate = 0;
-	public static boolean moveshoot=false;
 
     public static final double DEADZONE_VALUE = 0.01;
 	public static final int NUMBER_OF_CONTROLLERS = 2;
